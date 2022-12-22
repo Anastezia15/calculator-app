@@ -10,6 +10,10 @@ public class CalculatorApplication {
 		SpringApplication.run(CalculatorApplication.class, args);
 		int a=24;
 		a +=23;
+
+		Abracadabra wichViolet=new Abracadabra(5,9,0);
+		System.out.println(wichViolet.spell());
 	}
 
 }
+
